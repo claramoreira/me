@@ -2,8 +2,7 @@ import React from 'react';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import './App.css';
 import Main from './components/main';
-import { Link } from 'react-router-dom';
-import landingPage from './components/landingPage';
+import {Link} from 'react-router-dom';
 
 function App() {
   return (
@@ -28,7 +27,6 @@ function App() {
         </Drawer>
         <Content>
           <div className="page-content"/>
-          <landingPage/>
           <Main/>
         </Content>
     </Layout>
