@@ -35,72 +35,106 @@ class Resume extends Component {
                         <Education
                         startYear={2014}
                         endYear={2018}
-                        schoolName="PUC Minas"
-                        schoolDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. 
-                        Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
-                        turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis 
-                        ut adipiscing"
+                        courseName="Electronical and Telecomunication Egineering (MS)"
+                        schoolName="Pontifícial Universidade Católica (PUC Minas)"
+                        
                         />
 
                         <Education
                         startYear={2019}
                         endYear={2020}
-                        schoolName="PUC Minas"
-                        schoolDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. 
-                        Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
-                        turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis 
-                        ut adipiscing"
+                        courseName="Artificial Inteligence and Machine Learning (Specialization)"
+                        schoolName="Pontifícial Universidade Católica (PUC Minas)"
                         />
 
                         <Education
                         startYear={2019}
                         endYear={2020}
-                        schoolName="PUC Minas"
-                        schoolDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. 
-                        Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
-                        turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis 
-                        ut adipiscing"
+                        courseName="Software Engineering (Specialization)"
+                        schoolName="Pontifícial Universidade Católica (PUC Minas)"
                         />
                         
                         <hr style={{borderTop: '1px solid #fff'}}/>
                         <h2>Experience</h2>
 
                         <Experience
-                        startYear={2014}
-                        endYear={2018}
-                        jobName="First Job"
-                        jobDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. 
-                        Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
-                        turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis 
-                        ut adipiscing"
+                        startYear={2019}
+                        endYear={2020}
+                        jobName="QA Analyst"
+                        companyName="Hexing"
+                        jobDescription="I was responsible for software testing and documentation at Hexing. The main tools used for software testing were Selenium 
+                        and SoapUI. Meanwhile, the team used Gitlab and Sphinx to build documentation to guide the user through instaling, using and maintaining the 
+                        MDC system. At times, I performed data analysis using Python libraries such as Pandas, NumPY and Matplotlib. At Hexing, I had a real experience
+                        using Scrum methodology."
                         />
 
                         <Experience
-                        startYear={2014}
+                        startYear={2018}
                         endYear={2018}
-                        jobName="Second Job"
-                        jobDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. 
-                        Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
-                        turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis 
-                        ut adipiscing"
+                        jobName="Relationship Analyst Intern"
+                        companyName="Y3 Gestão em Telecomunicações"
+                        jobDescription="As a Relationship Analyst, I dealt with the customers (10-1000 employees companies) daily and intermediate the communication 
+                        etween the telecommunication services provider and our costumers. I made several data analysis using the costumers' smartphone usage to better 
+                        fit their needs to the provider offers. "
                         />
 
                         <Experience
-                        startYear={2014}
-                        endYear={2018}
-                        jobName="Second Job"
-                        jobDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. 
-                        Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
-                        turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis 
-                        ut adipiscing"
+                        startYear={2016}
+                        endYear={2017}
+                        jobName="Data Analyst Intern"
+                        companyName="Oi SA"
+                        jobDescription="At Oi SA I had my first contact with large databases and with data management tools when working with the corporative sector of 
+                        the company. I used to manage MSSQL Server and MySQL databases to provide business intel for costumer success of Oi biggest costumers. I made VBA 
+                        macros to automate report generation and integration with SQL databases. I developed webpages to provide internal information at real-time using 
+                        Apache WebServer, PHP, HTML and CSS. "
                         />
 
                     <hr style={{borderTop: '1px solid #fff'}}/>
                     <h2>Skills</h2>
 
                         <Skills
-                            skills="javascript"
-                            progress={100}
+                            skills="Python"
+                            progress={50}
+                        />
+
+                        <Skills
+                            skills="R"
+                            progress={30}
+                        />
+
+                        <Skills
+                            skills="Hadoop"
+                            progress={20}
+                        />
+
+                        <Skills
+                            skills="Hive"
+                            progress={20}
+                        />
+
+                        <Skills
+                            skills="Apache Sparks"
+                            progress={20}
+                        />
+
+                        <Skills
+                            skills="MySQL"
+                            progress={80}
+                        />
+
+                        <Skills
+                            skills="MSSQL Server"
+                            progress={80}
+                        />
+
+                        <Skills
+                            skills="C"
+                            progress={80}
+                        />
+
+                        <Skills
+                            skills="JavaScript"
+                            progress={80}
                         />
 
 

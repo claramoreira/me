@@ -5,11 +5,21 @@ class Skills extends Component {
     render(){
         return(
             <Grid>
-                <Cell col={12}>
-                    <div style={{display: 'flex'}}>
+                <Cell col={3}>
+                    <div style={{display: 'flex', textAlign:'center'}}>
                         {this.props.skills} 
-                        <ProgressBar style={{margin: 'auto', width: '75%'}}
+                    </div>
+                </Cell>
+                <Cell col={8}>
+                    <div style={{verticalAlign: 'bottom'}}>
+                        <ProgressBar style={{width: '100%'}}
                                      progress={this.props.progress}/>
+                    </div>
+                </Cell>
+
+                <Cell col={1}>
+                    <div>
+                        {this.props.progress}%
                     </div>
                 </Cell>
             </Grid>
