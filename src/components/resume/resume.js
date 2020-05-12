@@ -19,9 +19,9 @@ class Resume extends Component {
                             />
                         </div>
                         <h2 style={{fontFamily: 'yesteryear', textAlign: 'center', fontSize: '60px'}}>Clara Moreira</h2>
-                        <h4 style={{color: 'grey'}}>Developer | Data Scientist</h4>
+                        <h4 style={{color: 'grey'}}>Data Scientist | Software Engineer</h4>
                         <hr style={{borderTop: '3px solid #888', width: '50%'}}/>
-                        <p>I'm a Data Sciece enthusiast.</p>
+                        <p>I'm a Data Science enthusiast.</p>
                         <hr style={{borderTop: '3px solid #888', width: '50%'}}/>
                         <h5>City:</h5>
                         <p>Belo Horizonte - MG</p>
@@ -135,6 +135,16 @@ class Resume extends Component {
                         <Skills
                             skills="JavaScript"
                             progress={80}
+                        />
+
+                        <Skills
+                            skills="HTML"
+                            progress={95}
+                        />
+
+                        <Skills
+                            skills="CSS"
+                            progress={95}
                         />
 
 
