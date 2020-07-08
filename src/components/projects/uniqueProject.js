@@ -6,10 +6,10 @@ class Project extends Component {
         return(
         
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color:'#000', height: '176px', background: this.props.imgPath}}>
+                    <CardTitle style={{color:'#fff', height: '176px', background: this.props.imgPath}}>
                        {this.props.projectName}
                     </CardTitle>
-                    <CardText>
+                    <CardText style={{textAlign:'justify'}}>
                         {this.props.description}
                     </CardText>
 
@@ -22,14 +22,14 @@ class Project extends Component {
                     </CardText>
                     
                     <CardText>
-                        Libaries: {this.props.libraries}
+                        Libraries: {this.props.libraries}
                     </CardText>
-                    
+
                     <CardActions border>
                         <a href={this.props.link_deploy}>
                             <Button colored>{this.props.link_deploy_name}</Button>
                         </a>
-                        <a href={this.props.link_git}>
+                        <a href={this.props.link_source}>
                             <Button colored>{this.props.link_source_name}</Button>
                         </a>
                     </CardActions>
