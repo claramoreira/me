@@ -6,11 +6,13 @@ class Front extends Component {
         return(
         
                 <Project
-                projectName="Teste1"
-                imgPath='/personalwebsite_project.png'
+                projectName="Personal Website"
+                imgPath='url(https://github.com/claramoreira/me/blob/master/public/personalwebsite_project.png?raw=true) center / cover'
                 description="testestetestes"
-                link1="xxxx"
-                link2="yyyy"
+                link_deploy_name="Website"
+                link_deploy="https://claramoreira.github.io/me/"
+                link_source_name="Github"
+                link_source="https://github.com/claramoreira/me"
                 />
         )
     }
