@@ -6,7 +6,7 @@ class Experience extends Component {
         return(
             <Grid>
                 <Cell col={2}>
-                    <p style={{fontWeight: 'bold'}}>{this.props.startYear} - {this.props.endYear}</p>
+                    <p style={{fontWeight: 'bold'}}>{this.props.startMonth}/{this.props.startYear} - {this.props.endMonth}/{this.props.endYear}</p>
                 </Cell>
                 <Cell col={10}>
                     <h4 style={{marginTop: '0px'}}>{this.props.jobName}</h4>
