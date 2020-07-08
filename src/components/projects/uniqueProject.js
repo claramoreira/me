@@ -6,6 +6,7 @@ class Project extends Component {
         return(
         
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    
                     <CardTitle style={{color:'#fff', height: '176px', background: this.props.imgPath}}>
                        {this.props.projectName}
                     </CardTitle>
@@ -34,7 +35,9 @@ class Project extends Component {
                         </a>
                     </CardActions>
                     <CardMenu style={{color:'#000'}}>
-                        <IconButton name="share"/>
+                        <a href={this.props.link_deploy}>
+                            <IconButton name="check"/>
+                        </a>
                     </CardMenu>
                 </Card>
             

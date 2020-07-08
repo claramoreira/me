@@ -17,7 +17,7 @@ class landingPage extends Component {
                         <div className="banner-text">
                             <h1>Clara Moreira</h1>
                             <hr/>
-                            <p>Data Scientist | Software Engineer</p>
+                            <p>Programmer | Software Engineer</p>
 
                             <div className="social-links">
                                 
