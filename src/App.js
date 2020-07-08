@@ -11,16 +11,16 @@ function App() {
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} 
         to="/me">Home</Link>} scroll>
             <Navigation>
-                <Link to="/projects">Projects</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to={process.env.PUBLIC_URL + '/projects'}>Projects</Link>
+                <Link to={process.env.PUBLIC_URL + '/resume'}>Resume</Link>
+                <Link to={process.env.PUBLIC_URL + '/contact'}>Contact</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/me">Home</Link>}>
             <Navigation>
-                <Link to="/projects">Projects</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to={process.env.PUBLIC_URL + '/projects'}>Projects</Link>
+                <Link to={process.env.PUBLIC_URL + '/resume'}>Resume</Link>
+                <Link to={process.env.PUBLIC_URL + '/contact'}>Contact</Link>
             </Navigation>
         </Drawer>
         <Content>

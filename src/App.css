@@ -1,9 +1,15 @@
-
 .header-color{
   background: #CC95C0;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-weight: bold;
+}
+
+.mdl-navigation a{
+  font-size: 1.2em;
+}
+.mdl-navigation a:hover{
+  font-size: 1.5em;
 }
 
 /*Landing Page*/
