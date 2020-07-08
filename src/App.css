@@ -27,7 +27,7 @@
 }
 
 .avatar-img{
-  height: 250px;
+  height: 10%;
   padding-top: 5em;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .banner-text h1{
-  font-size: 8em;
+  font-size: 8vw;
   font-weight: bold;
   color: white;
   font-family: 'Yesteryear';
