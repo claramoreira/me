@@ -7,7 +7,7 @@ class DataScience extends Component {
         
                 <Project
                 projectName="Titanic: Data Visualization"
-                imgPath='/personalwebsite_project.png'
+                imgPath='url(https://github.com/claramoreira/me/blob/master/public/titanic_project.png?raw=true) center / cover'
                 description="Titanic: Data Visualization is a project created to better understand Kaggles' Titanic: Machine Learning from Disaster dataset."
                 languages="Python"
                 frameworks="None"
